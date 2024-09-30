@@ -23,7 +23,7 @@ body {
     border-right: 2px solid green;
 }
 
-.class-for-centering-texts{
+.class-for-centering-texts {
     text-align: center;
 }
 
@@ -48,19 +48,18 @@ body {
     margin-bottom: 10px;
 }
 
-/* Custom Scrollbar Styling */
 #dialogue-area::-webkit-scrollbar {
-    width: 10px; /* Width of the scrollbar */
+    width: 10px;
 }
 
 #dialogue-area::-webkit-scrollbar-track {
-    background: black; /* Track color */
+    background: black;
 }
 
 #dialogue-area::-webkit-scrollbar-thumb {
-    background-color: green; /* Scrollbar color */
-    border-radius: 10px; /* Rounded corners */
-    border: 2px solid black; /* Adds some spacing around the scrollbar */
+    background-color: green;
+    border-radius: 10px;
+    border: 2px solid black;
 }
 
 #input-area {
@@ -78,7 +77,6 @@ input[type="text"] {
     outline: none;
 }
 
-/* Hover effect for input */
 input[type="text"]:focus {
     border-color: lime;
 }
@@ -94,23 +92,21 @@ button {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-/* Hover effect for button */
 button:hover {
     background-color: green;
     color: black;
     border-color: lime;
 }
 
-/* Styles for messages */
 .user-message {
-    color: green; /* User messages in blue */
+    color: green;
 }
 
 .bot-message {
-    color: yellow; /* Change bot messages to yellow */
-    background-color: rgba(255, 255, 0, 0.2); /* Optional: Light yellow background */
-    padding: 5px; /* Optional: Padding for better spacing */
-    border-radius: 5px; /* Optional: Rounded corners */
+    color: yellow;
+    background-color: rgba(255, 255, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .ascii-image {
@@ -118,7 +114,6 @@ button:hover {
     padding: 10px;
     border-top: 2px solid green;
 }
-
 
 ::selection {
     background: green;
