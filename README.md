@@ -1,7 +1,7 @@
 
-# 🎮 **Timefall: Escape or Obey** 🎮
+# 🎮 **Lost** 🎮
 
-Welcome to **"Timefall"**, a unique text-based adventure game where you take on the role of a volunteer using an experimental time machine. But something goes wrong... and you find yourself **stranded** in a dystopian future, ruled by an oppressive regime. Your journey will test your survival skills, your alliances, and your moral choices.
+Welcome to **"Lost"**, a unique text-based adventure game where you take on the role of a volunteer using an experimental time machine. But something goes wrong... and you find yourself **stranded** in a dystopian future, ruled by an oppressive regime. Your journey will test your survival skills, your alliances, and your moral choices.
 
 ---
 
@@ -47,34 +47,6 @@ Every decision matters, and the path you choose will shape the world and determi
 
 ---
 
-## 🎨 **ASCII Art Examples**
-
-\`\`\`
-    _______
-   |       |
-   |  _    |
-   | |_|   |
-   |_______|
-      ||  
-\`\`\`
-Be prepared to experience the world visually through **retro ASCII art** that enhances the story.
-
----
-
-## 🔧 **How to Play**
-
-1. **Download** the latest version from the [releases](#) section.
-2. **Run** the game using Node.js:
-   \`\`\`
-   node timefall.js
-   \`\`\`
-3. Start the game and **interact** with the world through simple typed commands like:
-   - **Investigate** objects
-   - **Talk** to characters
-   - **Make** choices that affect the story
-
----
-
 ## 🛠️ **Built With**
 
 - **Node.js** for backend processing
@@ -97,4 +69,4 @@ This game was developed for a **hackathon** and is still in its early stages. Ex
 
 ---
 
-Thank you for playing **"Timefall: Escape or Obey"!** We hope you enjoy navigating the future and shaping your destiny! ✨
+Thank you for playing **"Lost"!** We hope you enjoy navigating the future and shaping your destiny! ✨
