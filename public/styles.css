@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top {
+    display: flex;
+    flex: 1;
+}
+
+.tips-inventory {
+    flex: 1;
+    padding: 10px;
+    border-right: 2px solid green;
+}
+
+.class-for-centering-texts{
+    text-align: center;
+}
+
+.dialogue {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#dialogue-area {
+    flex-grow: 1;
+    height: 200px;
+    border: 1px solid green;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+/* Custom Scrollbar Styling */
+#dialogue-area::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+#dialogue-area::-webkit-scrollbar-track {
+    background: black; /* Track color */
+}
+
+#dialogue-area::-webkit-scrollbar-thumb {
+    background-color: green; /* Scrollbar color */
+    border-radius: 10px; /* Rounded corners */
+    border: 2px solid black; /* Adds some spacing around the scrollbar */
+}
+
+#input-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    background-color: black;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Hover effect for input */
+input[type="text"]:focus {
+    border-color: lime;
+}
+
+button {
+    padding: 10px;
+    width: 15%;
+    background-color: black;
+    color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Hover effect for button */
+button:hover {
+    background-color: green;
+    color: black;
+    border-color: lime;
+}
+
+/* Styles for messages */
+.user-message {
+    color: green; /* User messages in blue */
+}
+
+.bot-message {
+    color: yellow; /* Change bot messages to yellow */
+    background-color: rgba(255, 255, 0, 0.2); /* Optional: Light yellow background */
+    padding: 5px; /* Optional: Padding for better spacing */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+.ascii-image {
+    flex: 1;
+    padding: 10px;
+    border-top: 2px solid green;
+}
+
+
+::selection {
+    background: green;
+    color: black;
+}
